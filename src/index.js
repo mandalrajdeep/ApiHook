@@ -3,7 +3,7 @@ const axios = require('axios')
 module.exports = {
     getUser(username) {
         return axios
-            .get(`https://api.chengbao.com/users/${username}`)
+            .get(`https://api.rajdeepmandal.com/users/${username}`)
             .then(res => res.data)
             .catch(error => {
                 if(error.status == 404) {

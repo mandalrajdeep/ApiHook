@@ -1,8 +1,8 @@
-# ExpressVPN - Chengbao
+# External API Integration
 
 The following imaginary (external) API has been fabricated. While some usernames may be valid, some may not.
 ```
-https://api.chengbao.com/users/${username}
+https://api.rajdeepmandal.com/users/${username}
 ```
 
 ## Frameworks

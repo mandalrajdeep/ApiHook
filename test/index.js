@@ -6,7 +6,7 @@ const response = require('./response')
 
 describe('Get User Test', () => {
   beforeEach(() => {
-    nock('https://api.chengbao.com')
+    nock('https://api.rajdeepmandal.com')
       .get('/users/mandalrajdeep')
       .reply(200, response)
   })
